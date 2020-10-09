@@ -1,4 +1,4 @@
-project('collections', 'c', version: '1.0.0')
+project('calg', 'c', version: '1.0.0')
 
 subdir('docs')
 subdir('include')

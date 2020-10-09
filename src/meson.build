@@ -20,4 +20,9 @@ sources = files([
     'trie.c'
 ])
 
-library('collections', sources, include_directories: inc)
+library(
+    'calg', 
+    sources, 
+    include_directories: inc,
+    install: true,
+)
