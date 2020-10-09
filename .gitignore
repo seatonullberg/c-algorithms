@@ -1,25 +1,61 @@
-.deps
-.gitignore
-.libs
-INSTALL
-Makefile
-Makefile.in
-aclocal.m4
-autom4te.cache
-autotools
-config.h
-config.h.in
-config.log
-config.status
-configure
-libtool
-m4
-stamp-h1
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
 *.a
-*.gcda
-*.gcno
-*.gcov
 *.la
 *.lo
-*.o
-*.pc
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Build artifacts
+bin/
+
+# VS Code
+.vscode/
+
+# Meson build directories
+build-*
