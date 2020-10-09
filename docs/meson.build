@@ -1,0 +1,1 @@
+doxygen = find_program('doxygen', 'required': false)
