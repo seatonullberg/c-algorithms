@@ -4,6 +4,7 @@ This project is a fork of [c-algorithms](https://github.com/fragglet/c-algorithm
 
 ```
 $ git clone https://github.com/seatonullberg/collections && cd collections
+$ meson setup build && cd build
 $ meson compile
 $ meson test
 $ meson install
