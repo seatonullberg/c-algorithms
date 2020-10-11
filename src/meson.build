@@ -20,9 +20,14 @@ sources = files([
     'trie.c'
 ])
 
-library(
+calg_lib = library(
     'calg', 
     sources, 
     include_directories: inc,
     install: true,
+)
+
+calg_dep = declare_dependency(
+    include_directories: inc,
+    link_with: calg_lib,
 )
